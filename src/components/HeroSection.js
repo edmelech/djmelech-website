@@ -14,7 +14,15 @@ function HeroSection() {
           buttonStyle='btn--outline'
           buttonSize='btn--large'
         >
-          LISTEN
+          FOLLOW
+        </Button>
+        <Button 
+          className='btns' 
+          buttonStyle='btn--primary'
+          buttonSize='btn--large'
+        >
+          LISTEN <i className='far
+          fa-play-circle' />
         </Button>
       </div>
     </div>
