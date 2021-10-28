@@ -56,11 +56,11 @@ function Navbar() {
                 Contact
               </Link>
             </li>
-            <li className='nav-item'>
+            {/* <li className='nav-item'>
               <Link to='/mailing-list' className='nav-links-mobile' onClick={closeMobileMenu}>
                 Mailing List
               </Link>
-            </li>
+            </li> */}
           </ul>
           {button && <Button buttonStyle='btn--outline'>MAILING LIST</Button>}
         </div>
