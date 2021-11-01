@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 function CardItem(props) {
+  console.log(props.src)
   return (
     <>
       <li className="cards__item">
