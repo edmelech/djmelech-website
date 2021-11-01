@@ -9,7 +9,12 @@ function Cards() {
       <div className="cards__container">
         <div className="cards__wrapper">
           <ul className="cards__items">
-            <CardItem />
+            <CardItem
+              src='src/images/melech-smile.jpg'
+              text="Listen to my latest mix of disco music."
+              label='DJ Mixes'
+              path='/music' 
+            />
           </ul>
         </div>
       </div>
