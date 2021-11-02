@@ -17,7 +17,7 @@
 }
 
 .about {
-  background-image: url('/src/images/Melech-tree.jpg');
+  background-image: src='images/Melech-tree.jpg';
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -26,7 +26,7 @@
 }
 
 .music {
-  background-image: url('/src/images/Melech.jpg');
+  background-image: src='images/Melech.jpg';
   background-position: center;
   background-size: fill;
   background-repeat: no-repeat;
@@ -35,7 +35,7 @@
 }
 
 .sign-up {
-  background-image: url('/src/images/melech-smile.jpg');
+  background-image: src='melech-smile.jpg';
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
