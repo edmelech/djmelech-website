@@ -7,6 +7,7 @@ function HeroSection() {
   return (
     <div className='hero-container'>
       <h1>LIFE TO MUSIC</h1>
+      {/* <img src="/images/Melech-tree" alt=""/> */}
       <p>Latest Spotify playlist available now</p>
       <div className="hero-btns">
         <Button 
