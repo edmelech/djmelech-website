@@ -1,6 +1,8 @@
 import React from 'react'
 import CardItem from './CardItem'
 import './Cards.css';
+import image from './Melech-tree.jpg'
+import melechSmile from './melech-smile.jpg'
 
 function Cards() {
   return (
@@ -10,13 +12,13 @@ function Cards() {
         <div className="cards__wrapper">
           <ul className="cards__items">
             <CardItem
-              src='/images/melech-tree.jpg'
+              src={image}
               text='Listen to my latest disco mix.'
               label='Disco'
               path='/music' 
             />
             <CardItem
-              src='/images/melech-smile.jpg'
+              src={melechSmile}
               text='Listen to my latest house mix.'
               label='House'
               path='/music' 
