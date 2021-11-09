@@ -8,6 +8,7 @@
 .home,
 .about,
 .music,
+.contact,
 .mailing-list {
   display: flex;
   height: 90vh;
@@ -26,6 +27,15 @@
 }
 
 .music {
+  background-image: url('./assets/images/Melech.jpg');
+  background-position: center;
+  background-size: fill;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+
+.contact {
   background-image: url('./assets/images/Melech.jpg');
   background-position: center;
   background-size: fill;
