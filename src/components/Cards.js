@@ -1,8 +1,8 @@
 import React from 'react'
 import CardItem from './CardItem'
 import './Cards.css';
-import melechTree from './Melech-tree.jpg'
-import melechSmile from './melech-smile.jpg'
+import melechTree from '../assets/images/Melech-tree.jpg'
+import melechSmile from '../assets/images/melech-smile.jpg'
 
 function Cards() {
   return (
