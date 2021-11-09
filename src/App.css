@@ -27,9 +27,9 @@
 }
 
 .music {
-  background-image: url('./assets/images/Melech.jpg');
+  background-image: url('./assets/images/Melech2019.jpg');
   background-position: center;
-  background-size: fill;
+  background-size: cover;
   background-repeat: no-repeat;
   color: #fff;
   font-size: 100px;
@@ -38,7 +38,7 @@
 .contact {
   background-image: url('./assets/images/Melech.jpg');
   background-position: center;
-  background-size: fill;
+  background-size: cover;
   background-repeat: no-repeat;
   color: #fff;
   font-size: 100px;
