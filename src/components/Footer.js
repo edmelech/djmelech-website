@@ -32,6 +32,33 @@ function Footer() {
               <Link to='/'>Resident Advisor</Link>
             </div>
           </div>
+          <div className="footer-link-wraper">
+            <div className="footer-link-items">
+              <h2>About Us</h2>
+              <Link to='/sign-up'>Soundcloud</Link>
+              <Link to='/'>Mixcloud</Link>
+              <Link to='/'>Instagram</Link>
+              <Link to='/'>Resident Advisor</Link>
+            </div>
+          </div>
+          <div className="footer-link-wraper">
+            <div className="footer-link-items">
+              <h2>About Us</h2>
+              <Link to='/sign-up'>Soundcloud</Link>
+              <Link to='/'>Mixcloud</Link>
+              <Link to='/'>Instagram</Link>
+              <Link to='/'>Resident Advisor</Link>
+            </div>
+          </div>
+          <div className="footer-link-wraper">
+            <div className="footer-link-items">
+              <h2>About Us</h2>
+              <Link to='/sign-up'>Soundcloud</Link>
+              <Link to='/'>Mixcloud</Link>
+              <Link to='/'>Instagram</Link>
+              <Link to='/'>Resident Advisor</Link>
+            </div>
+          </div>
         </div>
       </div>
       <section className="social-media">
