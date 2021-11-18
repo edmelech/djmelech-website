@@ -6,9 +6,9 @@ import './HeroSection.css';
 function HeroSection() {
   return (
     <div className='hero-container'>
-      <h1>LIFE TO MUSIC</h1>
-      <p>Latest Spotify playlist available now</p>
-      <div className="hero-btns">
+      {/* <h1>LIFE TO MUSIC</h1>
+      <p>Latest Spotify playlist available now</p> */}
+      {/* <div className="hero-btns">
         <Button 
           className='btns' 
           buttonStyle='btn--outline'
@@ -24,7 +24,7 @@ function HeroSection() {
           LISTEN <i className='far
           fa-play-circle' />
         </Button>
-      </div>
+      </div> */}
     </div>
   )
 }
