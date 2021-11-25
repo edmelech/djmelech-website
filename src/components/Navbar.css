@@ -21,6 +21,7 @@
 }
 
 .navbar-logo {
+  -webkit-text-stroke: 0.3px black;
   color: #fff;
   justify-self: start;
   margin-left: 10px;
