@@ -4,10 +4,13 @@ import './Navbar.css';
 import { Button } from './Button';
 
 function Navbar() {
-  const [click, setClick] = useState(false);
+  const [menuActive, setClick] = useState(false);
   const [button, setButton] =useState(true);
 
-  const handleClick = () => setClick(!click);
+  // const [pose, setPose] = useState('Downward dog')
+
+
+  const handleClick = () => setClick(!menuActive);
   const closeMobileMenu = () => setClick(false)
 
   const showButton = () => {
@@ -33,9 +36,9 @@ function Navbar() {
             MELECH 
           </Link>  
           <div className="menu-icon" onClick={handleClick}>
-            <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
+            <i className={menuActive ? 'fas fa-times' : 'fas fa-bars'} />
           </div>  
-          <ul className={click ? 'nav-menu active' : 'nav-menu'}>
+          <ul className={menuActive ? 'nav-menu active' : 'nav-menu'}>
             <li className='nav-item'>
               <Link to='/' className='nav-links' onClick={closeMobileMenu}>
                 Home
