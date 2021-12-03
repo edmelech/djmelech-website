@@ -9,7 +9,6 @@
 .home,
 .about,
 .music,
-.contact,
 .mailing-list {
   display: flex;
   height: 90vh;
@@ -17,6 +16,7 @@
   justify-content: center;
   font-size: 3rem;
 }
+
 
 .about {
   background-image: url('./assets/images/Melech-tree.jpg');
@@ -41,8 +41,12 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  color: #fff;
-  font-size: 100px;
+  color: #black;
+  font-size: 30px;
+  display: flex;
+  height: 90vh;
+  align-items: center;
+  justify-content: center;
 }
 
 .mailing-list {
@@ -52,4 +56,6 @@
   background-repeat: no-repeat;
   color: #fff;
   font-size: 100px;
+  display: flex;
+  justify-content: flex-end;
 }
