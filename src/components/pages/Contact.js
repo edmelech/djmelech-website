@@ -7,7 +7,7 @@ export default function Contact() {
       <div className="contact_card">
         {/* <h1>CONTACT</h1> */}
         <p>
-          ed@djmelech.com
+          ed@djmelech.com<br/><br/>
           Instagram<br/>
           Twitter
         </p>
