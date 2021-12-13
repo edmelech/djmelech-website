@@ -46,14 +46,7 @@
   color: black;
 }
 
-.contact_card {
-  display: flex;
-  width: 300px;
-  font-size: 24px;
-  /* border: 3px solid #73AD21; */
-  margin-left: auto; 
-  margin-right: 2rem;
-}
+
 
 .mailing-list {
   background-image: url('./assets/images/melech-smile.jpg');
