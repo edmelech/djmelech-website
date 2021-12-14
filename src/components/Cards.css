@@ -13,6 +13,19 @@
   font-family:'Anton', sans-serif;
 }
 
+.about-card {
+  display: flex;
+  width: 400px;
+  background-color: black;
+  font-size: 16px;
+  padding: 25px;
+  opacity: 0.8;
+  margin-left: auto; 
+  margin-right: 3rem;
+  text-align: justify;
+  font-family:'Anton', sans-serif;
+}
+
 h1 {
   text-align: center;
 }
@@ -75,8 +88,8 @@ h1 {
   max-width: calc((100%) - 60px);
   font-size: 12px;
   font-weight: 700;
-  color: #fff;
-  background-color: #1f98f4;
+  color: black;
+  background-color: #E4E4E2;
   box-sizing: border-box;
 }
 
