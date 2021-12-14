@@ -5,12 +5,9 @@ export default function Contact() {
   return (
     <div className="contact">
       <div className="contact_card">
-        {/* <h1>CONTACT</h1> */}
-        <p>
-          ed@djmelech.com<br/><br/>
-          Instagram<br/>
-          Twitter
-        </p>
+          ED@DJMELECH.COM<br/><br/>
+          INSTAGRAM<br/>
+          TWITTER
       </div>
     </div>
   );
