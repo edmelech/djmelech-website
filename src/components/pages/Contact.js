@@ -6,8 +6,8 @@ export default function Contact() {
     <div className="contact">
       <div className="contact_card">
           ED@DJMELECH.COM<br/><br/>
-          INSTAGRAM<br/>
-          TWITTER
+          <a href="https://www.instagram.com/dj_melech/">INSTAGRAM</a><br/>
+          
       </div>
     </div>
   );
