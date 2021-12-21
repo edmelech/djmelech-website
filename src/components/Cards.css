@@ -10,11 +10,12 @@
   /* border: 3px solid #73AD21; */
   margin-left: auto; 
   margin-right: 2rem;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Oswald', sans-serif;
   -webkit-transform: scaleX(-1);
   transform: scaleX(-1);
   text-decoration: none;
   color: black;
+  margin-top: 10%;
 }
 
 .about-card {
@@ -27,7 +28,7 @@
   margin-left: auto; 
   margin-right: 3rem;
   text-align: justify;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Oswald', sans-serif;
 }
 
 h1 {
