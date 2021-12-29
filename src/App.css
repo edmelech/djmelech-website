@@ -41,7 +41,7 @@ a.custom-link {
   background-size: cover;
   background-repeat: no-repeat;
   color: #fff;
-  font-size: 100px;
+  font-size: 10px;
 }
 
 .contact {
@@ -69,6 +69,7 @@ a.custom-link {
 
 .player-container {
   width: auto;
+  margin-top: 10rem;
 }
 
 
