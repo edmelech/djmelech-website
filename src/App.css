@@ -66,3 +66,9 @@ a.custom-link {
   display: flex;
   justify-content: flex-end;
 }
+
+.player-container {
+  width: auto;
+}
+
+
