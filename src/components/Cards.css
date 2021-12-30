@@ -31,6 +31,21 @@
   font-family: 'Oswald', sans-serif;
 }
 
+@media screen and (max-width: 960px) {
+  .about-card {
+    display: flex;
+    width: 400px;
+    background-color: black;
+    font-size: 16px;
+    padding: 25px;
+    opacity: 0.8;
+    /* margin-left: auto; 
+    margin-right: 3rem; */
+    text-align: justify;
+    font-family: 'Oswald', sans-serif;
+  }
+}
+
 h1 {
   text-align: center;
 }
