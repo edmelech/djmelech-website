@@ -68,8 +68,21 @@ a.custom-link {
 }
 
 .player-container {
-  width: auto;
-  margin-top: 10rem;
+  width: 700px;
+  margin-top: 5rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+@media screen and (max-width: 960px) {
+  .player-container {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
 }
 
 
