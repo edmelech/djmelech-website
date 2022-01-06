@@ -9,10 +9,11 @@ function Music() {
       <div className='player-container'>
         <ReactPlayer
           className='react-player'
-          url="https://soundcloud.com/djmelech/april-2021-dj-mix?si=3a579859e22b4815a269a0d782a36fb9&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing"
+          url="https://soundcloud.com/djmelech/april-2021-dj-mix"
           width='300px'
           height='190px'
         />
+        
         <br/>
         <ReactPlayer
           className='react-player'
