@@ -7,11 +7,13 @@ import Music from './components/pages/Music';
 import Contact from './components/pages/Contact';
 import About from './components/pages/About';
 import MailingList from './components/pages/MailingList';
+import ScrollToTop from './components/ScrollToTop';
 
 function App() {
   return (
     <>
       <Router>
+      <ScrollToTop />
         <Navbar />
         <Switch>
           <Route path='/' exact component={Home} />

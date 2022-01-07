@@ -34,7 +34,8 @@
   font-size: 9rem;
   display: flex;
   align-items: flex-end;
-  font-family:'Anton', sans-serif;
+  font-family:'Anton';
+  font-display: optional;
 }
 
 .fa-typo3 {
