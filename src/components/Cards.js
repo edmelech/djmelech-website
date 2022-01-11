@@ -2,7 +2,7 @@ import React from 'react'
 import CardItem from './CardItem'
 import './Cards.css';
 import smartEd from '../assets/images/SmartEd.jpg'
-import melechSmile from '../assets/images/melech-smile.jpg'
+import melechSmile from '../assets/images/melech-smile_ccexpress.jpg'
 
 function Cards() {
   return (

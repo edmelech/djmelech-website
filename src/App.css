@@ -27,7 +27,7 @@ a.custom-link {
 
 
 .about {
-  background-image: url('./assets/images/Melech-tree.jpg');
+  background-image: url('./assets/images/Melech-tree_ccexpress.jpg');
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -48,7 +48,7 @@ a.custom-link {
 }
 
 .contact {
-  background-image: url('./assets/images/melech-smile.jpg');
+  background-image: url('./assets/images/melech-smile_ccexpress.jpg');
   -webkit-transform: scaleX(-1);
   transform: scaleX(-1);
   background-position: center;
@@ -59,7 +59,7 @@ a.custom-link {
 
 
 
-.mailing-list {
+/* .mailing-list {
   background-image: url('./assets/images/melech-smile.jpg');
   background-position: center;
   background-size: cover;
@@ -68,7 +68,7 @@ a.custom-link {
   font-size: 100px;
   display: flex;
   justify-content: flex-end;
-}
+} */
 
 .player-container {
   width: 700px;
