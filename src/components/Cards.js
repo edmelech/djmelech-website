@@ -7,19 +7,19 @@ import melechSmile from '../assets/images/melech-smile_ccexpress.jpg'
 function Cards() {
   return (
     <div className='cards'>
-      <h1>Listen to my latest DJ mixes.</h1>
+      <h1>Listen to my latest DJ mixes</h1>
       <div className="cards__container">
         <div className="cards__wrapper">
           <ul className="cards__items">
             <CardItem
               src={smartEd}
-              text='Listen to my latest disco mix.'
+              text='Listen to my latest disco mix'
               label='Disco'
               path='/music' 
             />
             <CardItem
               src={melechSmile}
-              text='Listen to my latest house mix.'
+              text='Latest House Mix coming soon!'
               label='House'
               path='/music' 
             />
