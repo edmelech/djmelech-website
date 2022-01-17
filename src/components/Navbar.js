@@ -1,31 +1,14 @@
 import React, {useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import './Navbar.css';
-import { Button } from './Button';
 
 function Navbar() {
   const [menuActive, setClick] = useState(false);
-  const [button, setButton] =useState(true);
-
-  // const [pose, setPose] = useState('Downward dog')
-
 
   const handleClick = () => setClick(!menuActive);
   const closeMobileMenu = () => setClick(false)
 
-  const showButton = () => {
-    if(window.innerWidth <= 960) {
-      setButton(false)
-    } else {
-      setButton(true);
-    }
-  };
 
-  useEffect(() => {
-    showButton();
-  }, []);
-
-  window.addEventListener('resize', showButton);
 
   return (
     <>
@@ -59,13 +42,7 @@ function Navbar() {
                 Contact
               </Link>
             </li>
-            {/* <li className='nav-item'>
-              <Link to='/mailing-list' className='nav-links-mobile' onClick={closeMobileMenu}>
-                Mailing List
-              </Link>
-            </li> */}
           </ul>
-          {/* {button && <Button buttonStyle='btn--outline'>MAILING LIST</Button>} */}
         </div>
       </nav>
     </>
