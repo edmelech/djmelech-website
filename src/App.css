@@ -2,14 +2,24 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  /* font-family: 'PT Sans', sans-serif; */
   font-family: 'Codystar';
+}
+
+p {
+  font-family: 'Oswald', sans-serif;
 }
 
 a.custom-link {
   font-family: 'Oswald', sans-serif;
   color: black;
   text-decoration: none;
+}
+
+a.bio-link {
+  color: rgb(255, 255, 255);
+  text-decoration: underline;
+  font-family: 'Oswald', sans-serif;
+
 }
 
 .home,
@@ -81,6 +91,7 @@ a.custom-link {
 
 @media screen and (max-width: 960px) {
   .player-container {
+    margin-top: 70px;
     width: auto;
     display: flex;
     flex-direction: column;
@@ -89,7 +100,15 @@ a.custom-link {
   }
 }
 
-
 iframe {
   margin: 15px;
+}
+
+.mix-info {
+  background-color: rgb(0, 0, 0);
+  padding: 1rem;
+  margin: 0px 35px;
+  font-size: 15px;
+  opacity: 0.8;
+  text-align: justify;
 }
