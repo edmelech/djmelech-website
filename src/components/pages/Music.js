@@ -8,7 +8,7 @@ function Music() {
         <div className='player-container'>
           <div className="mix-container">
           <iframe 
-            width="90%" 
+            width="100%" 
             height="120" 
             src="https://www.mixcloud.com/widget/iframe/?hide_cover=1&light=1&feed=%2FDJMelech%2Fmelech-disco-mix-jan-2022%2F" 
             frameborder="0"

@@ -90,8 +90,6 @@ a.bio-link {
   color: black;
 }
 
-
-
 /* .mailing-list {
   background-image: url('./assets/images/melech-smile.jpg');
   background-position: center;
@@ -106,6 +104,7 @@ a.bio-link {
 .player-container {
   width: 700px;
   margin-top: 1rem;
+  margin-right: 1rem;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -113,16 +112,27 @@ a.bio-link {
 
 @media screen and (max-width: 1400px) {
   .Player-tracklist-container {
-    margin-top: 200px;
+    margin-top: 300px;
     width: auto;
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: space-around;
+  }
+
+  .player-container {
+    width: auto;
+    display: flex;
+    align-items: stretch;
+    margin-bottom: 1rem;
   }
 }
 
 iframe {
   margin: 15px;
+}
+
+.mix-container {
+  width: auto;
+  align-items: stretch;
+  display: flex;
 }
 
