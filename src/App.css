@@ -14,7 +14,9 @@ strong{
 }
 
 a.custom-link {
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+  font-weight: 700;
   color: black;
   text-decoration: none;
   display: inline;
