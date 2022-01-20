@@ -23,7 +23,7 @@
   background-color: black;
   font-size: 20px;
   padding: 25px;
-  opacity: 0.8;
+  opacity: 0.9;
   margin-top: 3rem;
   margin-left: auto; 
   margin-right: 2.5rem;
@@ -36,10 +36,10 @@
     display: flex;
     width: 300px;
     background-color: black;
-    margin-top: 3rem;
-    font-size: 20px;
+    margin-top: 5rem;
+    font-size: 16px;
     padding: 25px;
-    opacity: 0.8;
+    opacity: 0.9;
     /* margin-left: auto; 
     margin-right: 3rem; */
     text-align: justify;
@@ -174,7 +174,7 @@ h1 {
   padding: 2rem;
   margin: 0 1rem;
   font-size: 16px;
-  opacity: 0.8;
+  opacity: 0.9;
   text-align: justify;
 }
 

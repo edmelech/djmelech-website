@@ -109,7 +109,7 @@ a.bio-link {
 
 .player-container {
   width: 700px;
-  margin-top: 1rem;
+  margin-top: 3rem;
   margin-right: 1rem;
   display: flex;
   flex-direction: column;
@@ -118,17 +118,19 @@ a.bio-link {
 
 @media screen and (max-width: 1400px) {
   .Player-tracklist-container {
-    margin-top: 300px;
+    margin-top: 600px;
     width: auto;
     display: flex;
     flex-direction: column;
+    justify-content: center;
   }
 
   .player-container {
+    margin-left: 1rem;
     width: auto;
     display: flex;
-    align-items: stretch;
     margin-bottom: 1rem;
+    justify-content: center;
   }
 }
 
@@ -141,4 +143,6 @@ iframe {
   align-items: stretch;
   display: flex;
 }
+
+
 
