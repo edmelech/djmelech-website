@@ -9,6 +9,10 @@ p {
   font-family: 'Open Sans', sans-serif;
 }
 
+strong{
+  font-size: 26px;
+}
+
 a.custom-link {
   font-family: 'Oswald', sans-serif;
   color: black;
