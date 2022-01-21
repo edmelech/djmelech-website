@@ -109,8 +109,6 @@ a.bio-link {
 
 .player-container {
   width: 700px;
-  margin-top: 3rem;
-  margin-right: 1rem;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -126,11 +124,11 @@ a.bio-link {
   }
 
   .player-container {
-    margin-left: 1rem;
     width: auto;
     display: flex;
     margin-bottom: 1rem;
     justify-content: center;
+    margin-top: 50%;
   }
 }
 
