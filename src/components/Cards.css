@@ -20,7 +20,7 @@
 .about-card {
   display: flex;
   width: 600px;
-  background-color: black;
+  background-color: #242222;
   font-size: 20px;
   padding: 25px;
   opacity: 0.9;
@@ -35,7 +35,6 @@
   .about-card {
     display: flex;
     width: 300px;
-    background-color: black;
     margin-top: 5rem;
     font-size: 16px;
     padding: 25px;
@@ -170,7 +169,7 @@ h1 {
 
 .mix-info {
   width: auto;
-  background-color: rgb(0, 0, 0);
+  background-color: #242222;
   padding: 2rem;
   margin: 0 1rem;
   font-size: 16px;
@@ -180,7 +179,7 @@ h1 {
 
 
 .tracklist {
-  background-color: rgb(0, 0, 0);
+  background-color: rgb(28, 27, 27);
   padding: 2rem;
   font-size: 16px;
   opacity: 0.9;
@@ -189,7 +188,6 @@ h1 {
 
 @media only screen and (max-width: 1024px) {
   .tracklist {
-    background-color: rgb(0, 0, 0);
     padding: 3rem;
     font-size: 16px;
     opacity: 1;

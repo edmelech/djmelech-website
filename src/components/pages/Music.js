@@ -18,7 +18,7 @@ function Music() {
           
           <br/>
           <div className="mix-info">
-            <p>Welcome to my music page. Above is my latest mix which I made to go with the launch of this site. It features a load of music from my DJ sets over the past few weeks.</p>
+            <p>Welcome to my music page. Above is my latest disco mix which I made to go with the launch of this site. It features a load of music from my DJ sets over the past few weeks.</p>
             <br></br> 
             <p>I'm working on a house mix and will get that online soon. I'm also working on my own original music so watch this space.</p>
             <br></br>
