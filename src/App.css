@@ -66,7 +66,7 @@ a.bio-link {
 
 
 .about {
-  background-image: url('./assets/images/Melech-tree_ccexpress.jpg');
+  background-image: url('./assets/images/Melech-tree_lowres.jpg');
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -78,7 +78,7 @@ a.bio-link {
 }
 
 .music {
-  background-image: url('./assets/images/Melech2019.jpg');
+  background-image: url('./assets/images/Melech2019_lowres.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -87,7 +87,7 @@ a.bio-link {
 }
 
 .contact {
-  background-image: url('./assets/images/melech-smile_ccexpress.jpg');
+  background-image: url('./assets/images/melech-smile_lowres.jpg');
   -webkit-transform: scaleX(-1);
   transform: scaleX(-1);
   background-position: center;
@@ -97,7 +97,7 @@ a.bio-link {
 }
 
 /* .mailing-list {
-  background-image: url('./assets/images/melech-smile.jpg');
+  background-image: url('./assets/images/melech-smile_lowres.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
