@@ -7,6 +7,7 @@
 
 p {
   font-family: 'Open Sans', sans-serif;
+  margin-bottom: 16px;
 }
 
 strong{
@@ -22,6 +23,19 @@ a.custom-link {
   display: inline;
   position: relative;
   overflow: hidden;
+}
+
+@media screen and (max-width: 960px) {
+  a.custom-link {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    color: black;
+    text-decoration: none;
+    display: inline;
+    position: relative;
+    overflow: hidden;
+  }
 }
 
 .custom-link:after {
@@ -116,7 +130,7 @@ a.bio-link {
 
 @media screen and (max-width: 1400px) {
   .Player-tracklist-container {
-    margin-top: 600px;
+    margin-top: auto;
     width: auto;
     display: flex;
     flex-direction: column;

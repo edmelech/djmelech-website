@@ -19,9 +19,7 @@ function Music() {
           <br/>
           <div className="mix-info">
             <p>Welcome to my music page. Above is my latest disco mix which I made to go with the launch of this site. It features a load of music from my DJ sets over the past few weeks.</p>
-            <br></br> 
             <p>I'm working on a house mix and will get that online soon. I'm also working on my own original music so watch this space.</p>
-            <br></br>
             <p>
             To listen to my archive of mixes and radio shows, head over to the <a href="https://www.mixcloud.com/drmrllpls" target="_blank" rel="noreferrer" class="bio-link">DRM RLL PLS Mixcloud</a>  page. All future mixes will be available on this page.
             </p>
