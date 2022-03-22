@@ -15,17 +15,25 @@ function Music() {
             title="DJ Melech Disco Mix January 2022">
           </iframe>  
           </div>
+
+          <div className="mix-container">
+          <iframe 
+            width="100%" 
+            height="120" 
+            src="https://www.mixcloud.com/widget/iframe/?hide_cover=1&light=1&feed=%2FDJMelech%2Fmelech-house-mix-march-2022%2F" 
+            frameborder="0"
+            title="DJ Melech House Mix March 2022">
+          </iframe>  
+          </div>
           
           <br/>
           <div className="mix-info">
-            <p>Welcome to my music page. Above is my latest disco mix which I made to go with the launch of this site. It features a load of music from my DJ sets over the past few weeks.</p>
-            <p>I'm working on a house mix and will get that online soon. I'm also working on my own original music so watch this space.</p>
             <p>
-            To listen to my archive of mixes and radio shows, head over to the <a href="https://www.mixcloud.com/drmrllpls" target="_blank" rel="noreferrer" class="bio-link">DRM RLL PLS Mixcloud</a>  page. All future mixes will be available on this page.
+              To listen to my archive of mixes and radio shows, head over to the <a href="https://www.mixcloud.com/drmrllpls" target="_blank" rel="noreferrer" class="bio-link">DRM RLL PLS Mixcloud</a>  page. All future mixes will be available on this page.
             </p>
           </div>      
         </div>
-        <div className='tracklist'>
+        {/* <div className='tracklist'>
         <p>
           <strong>Melech Disco Mix - Jan 2022</strong>
           <br></br>
@@ -49,7 +57,7 @@ function Music() {
           <br></br>Tom Moulton - Small Circle of Friends
           <br></br>Christopher Cross - Ride Like The Wind (Joey Negro Extended Disco Mix)
           <br></br>Asso - Do It Again</p>
-        </div>
+        </div> */}
       </div>
 
     </h1>  
