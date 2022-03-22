@@ -19,7 +19,7 @@ function Cards() {
             />
             <CardItem
               src={melechSmile}
-              text='Latest to my latest house mix'
+              text='Listen to my latest house mix'
               label='House'
               path='/music' 
             />
