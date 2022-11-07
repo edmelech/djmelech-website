@@ -1,7 +1,5 @@
 # DJ Melech Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This was the first website I built after graduating from Le Wagon. I enjoyed making a website that combines my love for music with my new skills in web development. 
 
-## About this project
-
-This is my first website I have built since graduating from Le Wagon. I enjoyed making a website that combines my love for music with my new skills in web development. 
+View the site [here](https://www.djmelech.com)
