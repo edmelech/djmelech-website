@@ -147,6 +147,7 @@ a.bio-link {
 
 @media (min-width: 300px) and (max-width: 440px) {
   .player-container {
+    margin-top: 10rem;
     width: auto;
     display: flex;
     margin-bottom: 1rem;
