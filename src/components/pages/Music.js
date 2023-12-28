@@ -38,16 +38,6 @@ function Music() {
             title="DJ Melech Disco Mix January 2022">
           </iframe>  
           </div>
-
-          <div className="mix-container">
-          <iframe 
-            width="100%" 
-            height="120" 
-            src="https://player-widget.mixcloud.com/widget/iframe/?hide_cover=1&feed=%2FDJMelech%2Fmelech-house-mix-march-2022%2F"
-            frameborder="0"
-            title="DJ Melech House Mix March 2022">
-          </iframe>  
-          </div>
           
           <br/>
           <div className="mix-info">
