@@ -8,10 +8,20 @@
 .mix-scroll-table {
   max-height: 450px;
   overflow-y: auto;
+  scrollbar-width: thin; /* For Firefox */
 }
 
-.mix-scroll-table:hover {
-  overflow-y: scroll;
+.mix-scroll-table::-webkit-scrollbar {
+  width: 8px;
+}
+
+.mix-scroll-table::-webkit-scrollbar-thumb {
+  background-color: rgba(0,0,0,0.3); /* Visible thumb */
+  border-radius: 4px;
+}
+
+.mix-scroll-table::-webkit-scrollbar-track {
+  background: transparent;
 }
 
 p {
