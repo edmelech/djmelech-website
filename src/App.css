@@ -5,6 +5,11 @@
   font-family: 'Codystar';
 }
 
+.mix-scroll-table {
+  max-height: 450px;
+  overflow-y: auto;
+}
+
 p {
   font-family: 'Open Sans', sans-serif;
   margin-bottom: 16px;
