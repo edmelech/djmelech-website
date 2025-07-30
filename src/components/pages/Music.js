@@ -22,7 +22,6 @@ function Music() {
 
   return (
     <div className="music">
-      <h1>Mixes & Live DJ Sets</h1>
       <div className='Player-tracklist-container'>
         <div className='player-container'>
           <div className="mix-scroll-table">
