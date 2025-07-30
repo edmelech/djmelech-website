@@ -1,7 +1,26 @@
 import React from 'react'
+import React, { useEffect } from 'react';
 import '../../App.css'
 
 function Music() {
+
+  useEffect(() => {
+    const container = document.querySelector('.mix-scroll-table');
+    if (!container) return;
+  
+    const handleHover = () => {
+      const currentScroll = container.scrollTop;
+      container.scrollTop = currentScroll + 1;
+  
+      setTimeout(() => {
+        container.scrollTop = currentScroll;
+      }, 150);
+    };
+  
+    container.addEventListener('mouseenter', handleHover);
+    return () => container.removeEventListener('mouseenter', handleHover);
+  }, []);
+
   return (
     <div className="music">
       <h1>Mixes & Live DJ Sets</h1>
