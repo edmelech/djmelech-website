@@ -10,6 +10,10 @@
   overflow-y: auto;
 }
 
+.mix-scroll-table:hover {
+  overflow-y: scroll;
+}
+
 p {
   font-family: 'Open Sans', sans-serif;
   margin-bottom: 16px;
