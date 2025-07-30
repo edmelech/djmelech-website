@@ -8,9 +8,20 @@ function Music() {
       <div className='Player-tracklist-container'>
         <div className='player-container'>
           <div className="mix-scroll-table">
+
+          <div className="mix-container">
+              <iframe
+                title = "DJ Melech mix 2024" 
+                width="100%" 
+                height="120" 
+                frameborder="0"
+                src="https://player-widget.mixcloud.com/widget/iframe/?hide_cover=1&feed=%2FDJMelech%2Fnye-2024-chiltern-firehouse-disco-set%2F">
+              </iframe>
+            </div>
+
             <div className="mix-container">
               <iframe
-                title = "Mixcloud player" 
+                title = "DJ Melech mix 2024" 
                 width="100%" 
                 height="120" 
                 frameborder="0"
