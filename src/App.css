@@ -180,5 +180,16 @@ iframe {
   display: flex;
 }
 
+.home-video {
+  display: flex;
+  justify-content: center;
+  margin: 60px 0;
+}
 
+.home-video iframe {
+  width: 100%;
+  max-width: 800px;
+  aspect-ratio: 16 / 9;
+  border: none;
+}
 
