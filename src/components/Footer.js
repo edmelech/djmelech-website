@@ -10,7 +10,7 @@ function Footer() {
         <div className="footer-links">
           <div className="footer-link-wraper">
             <div className="footer-link-items">
-              <Link to='/sign-up'>Ⓒ DJ Melech 2023</Link>
+              <Link to='/sign-up'>Ⓒ DJ Melech 2025</Link>
             </div>
           </div>
         </div>
