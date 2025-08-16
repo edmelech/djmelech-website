@@ -5,10 +5,9 @@ export default function About() {
   return (
     <div className="about">
       <div className="about-card">
-        <p>DJ Melech (Cyrus to his friends) is a resident DJ for London Chiltern Firehouse, CoOc, Nikita and Gallery.</p> 
-        <p>For over 15 years he has played regularly across the London circuit as well as private parties throughout the UK and Europe.</p> 
-        <p>Cyrus previously ran the DRM RLL PLS club night which saw him host room 2 at Bugged Out, playing alongside DJs such as Tiga, Basement Jaxx and Flying Lotus. He also took DRM RLL PLS to Bestival and hosted a show on Soho Radio between 2018-2020. 2025 saw Cyrus return to radio with some guest shows on London's Voices Radio.</p> 
-        <p>Constantly searching for new tunes and forgotten classics, Cyrus focuses his DJ sets on underground house, techno, disco and beyond. His sets also feature his own productions and edits, making them truly unique from anyone else. </p> 
+        <p>DJ Melech (known off the decks as Cyrus) is a resident at London institutions Chiltern Firehouse, CoOc, Nikita and Gallery. For over 15 years, he has been a fixture of the London scene, playing both clubs and private parties across the UK and Europe.</p>  
+        <p>As the founder of <em>DRM RLL PLS</em>, he hosted room 2 at Bugged Out alongside acts such as Tiga, Basement Jaxx and Flying Lotus, brought the party to Bestival, and ran a Soho Radio show from 2018–2020. In 2025, he returned to the airwaves with guest appearances on London’s Voices Radio.</p>  
+        <p>Known for digging deep into both fresh cuts and forgotten gems, DJ Melech weaves underground house, disco, techno and his own edits into sets that feel timeless yet unpredictable. Every performance is crafted to move the floor in a way that is uniquely his own.</p>
       </div>
     </div>
   ) 
