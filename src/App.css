@@ -55,9 +55,11 @@ strong{
 }
 
 a.custom-link {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Space Mono', monospace;  /* was Montserrat */
+  font-weight: 400;                       /* lighter, more minimal */
   font-size: 16px;
-  font-weight: 700;
+  letter-spacing: 0.5px;                  /* adds that intentional spacing */
+  text-transform: lowercase;              /* matches the vibe you liked */
   color: black;
   text-decoration: none;
   display: inline;
